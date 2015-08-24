@@ -21,6 +21,7 @@
 @property (strong, nonatomic) IBOutlet UIButton *btn7;
 @property (strong, nonatomic) IBOutlet UIButton *btn8;
 @property (strong, nonatomic) IBOutlet UIButton *btn9;
+@property (strong, nonatomic) IBOutlet UIButton *btn0;
 
 @end
 
