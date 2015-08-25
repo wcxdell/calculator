@@ -117,6 +117,34 @@
                                     <action selector="plus:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="f5f-my-eD8"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Tf-jS-xFS">
+                                <rect key="frame" x="37" y="351" width="70" height="30"/>
+                                <state key="normal" title="＝"/>
+                                <connections>
+                                    <action selector="equal:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="302-LM-0NL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h8u-6r-6xS">
+                                <rect key="frame" x="248" y="351" width="70" height="30"/>
+                                <state key="normal" title="-"/>
+                                <connections>
+                                    <action selector="minutes:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="PCn-Jb-kFB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lnN-ZX-VSO">
+                                <rect key="frame" x="142" y="351" width="70" height="30"/>
+                                <state key="normal" title="x"/>
+                                <connections>
+                                    <action selector="cheng:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="odf-1W-03z"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pif-9h-g6W">
+                                <rect key="frame" x="248" y="389" width="70" height="30"/>
+                                <state key="normal" title="/"/>
+                                <connections>
+                                    <action selector="chu:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Z3D-Ws-4Kf"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>

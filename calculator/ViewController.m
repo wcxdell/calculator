@@ -16,7 +16,7 @@
     NSInteger num1;
     NSInteger num2;
     BOOL flag;
-    NSString* symbol;
+    NSInteger symbol;
 }
 
 - (void)viewDidLoad {
@@ -100,11 +100,44 @@
 - (IBAction)AC:(id)sender {
     [self initWithNum];
     self.base.text = @"0";
+    self.answor.text = @"0";
 }
 - (IBAction)plus:(id)sender {
     flag = YES;
-    symbol = @"1";
-    self.base.text = [NSString stringWithFormat:@"%ld+",num1];
+    symbol = 1;
+}
+- (IBAction)equal:(id)sender {
+    switch (symbol) {
+        case 1:
+            num1 = num1 + num2;
+            break;
+        case 2:
+            num1 = num2 - num1;
+        case 3:
+            num1 = num1*num2;
+        case 4:
+            if(num1!=0){
+                num1 = num2/num1;
+            }else{
+                num1 = 0;
+            }
+            
+        default:
+            break;
+    }
+    self.answor.text = [NSString stringWithFormat:@"%ld",num1];
+}
+- (IBAction)minutes:(id)sender {
+    flag = YES;
+    symbol = 2;
+}
+- (IBAction)cheng:(id)sender {
+    flag = YES;
+    symbol = 3;
+}
+- (IBAction)chu:(id)sender {
+    flag = YES;
+    symbol = 4;
 }
 
 @end
